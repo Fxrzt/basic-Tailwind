@@ -16,7 +16,7 @@
           <li v-for="(item,index) in menubar" :key="index">
             <a
               href="#"
-              class="topic_text_TH block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+              class="topic_text_TH block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-orange-500 md:p-0 dark:text-white md:dark:text-blue-500"
               aria-current="page"
               v-if="index == 0"
               @click="fn_getName"
